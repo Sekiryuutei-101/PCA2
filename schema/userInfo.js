@@ -39,4 +39,4 @@ userSchema.statics.findByGoogleId = function(googleId) {
 };
 
 // Export the model correctly
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('googleUser', userSchema);
